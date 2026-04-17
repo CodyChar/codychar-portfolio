@@ -3,9 +3,9 @@
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { projects } from "@/data/projects";
 import Block from "@/components/Block";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import type { Project } from "@/lib/content";
 
 function PasswordGate({ onSuccess }: { onSuccess: () => void }) {
   const [password, setPassword] = useState("");
@@ -50,8 +50,28 @@ function PasswordGate({ onSuccess }: { onSuccess: () => void }) {
 export default function ProjectPage() {
   const params = useParams<{ slug: string }>();
   const [unlocked, setUnlocked] = useState(false);
+  const [project, setProject] = useState<Project | null>(null);
+  const [allProjects, setAllProjects] = useState<Project[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const project = projects.find((p) => p.slug === params.slug);
+  useEffect(() => {
+    fetch(`/api/content/project/${params.slug}`)
+      .then((r) => r.json())
+      .then((data) => {
+        setProject(data.project || null);
+        setAllProjects(data.allProjects || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [params.slug]);
+
+  if (loading) {
+    return (
+      <div className="flex min-h-[60vh] items-center justify-center">
+        <div className="h-6 w-6 animate-spin rounded-full border-2 border-muted border-t-foreground" />
+      </div>
+    );
+  }
 
   if (!project) {
     return (
@@ -70,22 +90,24 @@ export default function ProjectPage() {
     return <PasswordGate onSuccess={() => setUnlocked(true)} />;
   }
 
-  const otherProjects = projects.filter((p) => p.slug !== project.slug);
+  const otherProjects = allProjects.filter((p) => p.slug !== project.slug);
   const sortedBlocks = [...project.blocks].sort((a, b) => a.order - b.order);
 
   return (
     <div className="px-6 md:px-12 lg:px-20">
-      <section className="relative mb-12 aspect-[21/9] overflow-hidden rounded-xl bg-border/30">
-        <Image
-          src={project.thumbnail}
-          alt={`${project.title} ${project.subtitle}`}
-          fill
-          className="object-cover"
-          sizes="100vw"
-          preload
-          unoptimized={project.thumbnail.endsWith(".gif")}
-        />
-      </section>
+      {project.thumbnail && (
+        <section className="relative mb-12 aspect-[21/9] overflow-hidden rounded-xl bg-border/30">
+          <Image
+            src={project.thumbnail}
+            alt={`${project.title} ${project.subtitle}`}
+            fill
+            className="object-cover"
+            sizes="100vw"
+            preload
+            unoptimized={project.thumbnail.endsWith(".gif")}
+          />
+        </section>
+      )}
 
       <div className="mx-auto max-w-4xl">
         <div className="mb-4 text-sm text-muted">{project.discipline}</div>
@@ -115,14 +137,16 @@ export default function ProjectPage() {
               className="group"
             >
               <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-border/30">
-                <Image
-                  src={p.thumbnail}
-                  alt={`${p.title} ${p.subtitle}`}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  unoptimized={p.thumbnail.endsWith(".gif")}
-                />
+                {p.thumbnail && (
+                  <Image
+                    src={p.thumbnail}
+                    alt={`${p.title} ${p.subtitle}`}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    unoptimized={p.thumbnail.endsWith(".gif")}
+                  />
+                )}
               </div>
               <div className="mt-2 text-sm">
                 <span className="font-medium">{p.title}</span>

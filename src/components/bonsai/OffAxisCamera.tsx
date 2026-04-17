@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
-import { PerspectiveCamera } from "@react-three/drei";
+import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import { PerspectiveCamera as PerspectiveCameraImpl, Vector3 } from "three";
 import type { FaceTracker } from "./FaceTracker";
 
@@ -29,13 +29,14 @@ export default function OffAxisCamera({
     const t = tracker.current;
     if (!cam || !t) return;
 
+    // Only override projection when tracking is active
+    if (!t.tracking) return;
+
     const aspect = size.height / size.width;
     const w = screenWidthMeters;
     const h = w * aspect;
 
-    if (t.tracking) {
-      t.tick(h);
-    }
+    t.tick(h);
 
     _eye.copy(t.eyeSmoothed);
     _eye.y += camHeight;
@@ -61,14 +62,26 @@ export default function OffAxisCamera({
     cam.lookAt(_target);
   });
 
+  const isTracking = tracker.current?.tracking ?? false;
+
   return (
-    <PerspectiveCamera
-      ref={camRef}
-      makeDefault
-      position={[0, 0, 0.61]}
-      near={0.01}
-      far={20}
-      up={[0, 1, 0]}
-    />
+    <>
+      <PerspectiveCamera
+        ref={camRef}
+        makeDefault
+        position={[0, 0, 0.61]}
+        near={0.01}
+        far={20}
+        up={[0, 1, 0]}
+      />
+      {!isTracking && (
+        <OrbitControls
+          target={[0, -0.02, -0.09]}
+          enablePan={false}
+          minDistance={0.2}
+          maxDistance={2}
+        />
+      )}
+    </>
   );
 }
