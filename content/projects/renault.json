@@ -1,0 +1,24 @@
+{
+  "title": "Renault",
+  "subtitle": "Experiential Retail",
+  "discipline": "Microsoft Retail",
+  "thumbnail": "/images/projects/renault.jpg",
+  "protected": false,
+  "order": 5,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Renault Sport \u2014 Formula One Racing",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Renault Sport and Microsoft teamed up to push the limits of Formula One racing. This video wall theme celebrates that partnership. As a cherry on top, German Renault driver, Nico Hulkenberg will be visiting the Microsoft Store in Austin, TX to meet fans.",
+        "width": "full"
+      }
+    }
+  ]
+}

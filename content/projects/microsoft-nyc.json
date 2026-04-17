@@ -1,0 +1,45 @@
+{
+  "title": "Microsoft",
+  "subtitle": "NYC Projection Mapping",
+  "discipline": "Microsoft Retail",
+  "thumbnail": "/images/projects/microsoft-nyc.gif",
+  "protected": false,
+  "order": 7,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Art Transition Theme \u2014 Microsoft Store New York Flagship",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Microsoft's New York flagship store needed a way to transition between content on its enormous exterior LED matrix. Originally, the content just cross-faded. The ask was to design a more interesting way to transition. The final result uses animated screens, affixed to robot arms, that procedurally disassemble and resemble any content you add. The interior of the screens utilize some alpha channel trickery to create a reusable overlay. As a result, we no longer need to bake the animation in. Time is money and this asset saved us both!",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "References of the New York Flagship's LED screen that this piece was designed for. Notice that the perspective lines of the content match the viewer's perspective of the fixture from the street.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The above is a visualization of the alpha channel stages, showing how the animation transitions from A to B without ever needing to re-render.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "An early motion exploration for the robot panels.",
+        "width": "full"
+      }
+    }
+  ]
+}

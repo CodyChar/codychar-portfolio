@@ -1,0 +1,82 @@
+{
+  "title": "TRIPP",
+  "subtitle": "AI Wellness Guide",
+  "discipline": "Mobile and VR App Design",
+  "thumbnail": "/images/projects/tripp-kokua-vr.gif",
+  "protected": false,
+  "order": 3,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Using tech for good",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "As Head of Product Design at TRIPP, I spearheaded the 0-1 design strategy and development effort to integrate conversational AI into our mobile app, VR app and audio smart glasses platforms. My mission was to bridge the gap between emerging technology and human-centric design, ensuring that AI served our mission of fostering global mental health.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "TRIPP is a family of leading mental wellness apps and \"Kokua\" is the name of the AI agent we shipped.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Our AI-powered experience have gone on to win several awards, for both mobile and VR versions.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Kokua is a Hawaiian word (our CEO was born on O'ahu) that means to give openly, without the expectation of anything in return. This served as a guiding principal for how we built Kokua AI, as an empathetic AI.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Available on iOS & Android. Mobile audio-only experiences, for when you are on the go.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Immersive experiences for AR/VR devices like Quest, Apple Vision Pro, PlayStation VR 2 and more.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Interaction prototypes",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Behind the scenes look at my design process while working on Kokua XR.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "credits",
+      "value": {
+        "items": [
+          { "role": "Head of Product Design", "name": "Cody Char" }
+        ],
+        "width": "full"
+      }
+    }
+  ]
+}

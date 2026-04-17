@@ -1,0 +1,69 @@
+{
+  "title": "Minecraft",
+  "subtitle": "Experiential Retail",
+  "discipline": "3D Design & Animation",
+  "thumbnail": "/images/projects/minecraft.png",
+  "protected": false,
+  "order": 4,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Minecraft \u2014 Experiential Design & 3D Animation",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Minecon is an annual convention where Minecraft fans get to celebrate all things blocky. Since each Microsoft Store serves as a host for the event, we needed a general awareness campaign that could help get the word out.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Communicate the when/where of Minecon in a playful and Minecrafty way. Design general awareness assets for all video wall fixtures, in all Microsoft Stores.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Microsoft Stores are kind of like snow flakes - no two are exactly alike. But one quality they all have in common is a badass video wall system. With over sixty different store layouts, these video walls range from 1,920 pixels to 57,600 pixels (yup). To account for such large variation, I designed a set of modular assets, allowing me to tailor every deliverable around each unique store layout.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Minecraft is all about whimsey and adventure, so why not incorporate a little of that into this Minecon theme? To bring the video walls to life, we used characters from the game including the spider, ghast, sheep and chicken.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "We originally had the chicken get squished by a TNT block but eventually saved it from being smooshed...",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "credits",
+      "value": {
+        "items": [
+          { "role": "Creative Director", "name": "Florin Gale" },
+          { "role": "Senior Art Director", "name": "Jay Prochaska" },
+          { "role": "Project Manager", "name": "Rhiannon Thumma" },
+          { "role": "Concept & Storyboarding", "name": "Cody Char" },
+          { "role": "Design & Animation", "name": "Cody Char" },
+          { "role": "Copy Writer", "name": "Kelsi Auld" },
+          { "role": "Sound Design", "name": "Jonathan Warman" },
+          { "role": "MoJang Liaison", "name": "Jeff Rivait" },
+          { "role": "Minecon Announcement Video", "name": "Brikk (Stockholm, Sweden)" }
+        ],
+        "width": "full"
+      }
+    }
+  ]
+}

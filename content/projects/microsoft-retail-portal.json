@@ -1,0 +1,35 @@
+{
+  "title": "Microsoft",
+  "subtitle": "Retail Web Portal",
+  "discipline": "E-Commerce Design & Prototyping",
+  "thumbnail": "/images/projects/microsoft-portal.png",
+  "protected": false,
+  "order": 6,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Microsoft Retail Portal \u2014 UX/UI Design Prototype",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "While working at Microsoft on the experiential retail team, I helped lead and prototype a redesign for our e-commerce web portal. The mission was to adopt Microsoft's 'Fluent Design' principals of light, depth, motion, material and scale. I built this prototype, which was showcased in an executive review, entirely in After Effects with a combination of manual keyframing and Python expressions.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "credits",
+      "value": {
+        "items": [
+          { "role": "Design Director", "name": "Benson Chan" },
+          { "role": "Creative Director", "name": "Liliana Aguila" },
+          { "role": "Design Lead & Prototyper", "name": "Cody Char" }
+        ],
+        "width": "full"
+      }
+    }
+  ]
+}

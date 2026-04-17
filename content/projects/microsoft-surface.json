@@ -1,0 +1,24 @@
+{
+  "title": "Microsoft Surface Studio",
+  "subtitle": "",
+  "discipline": "3D Design & Rendering",
+  "thumbnail": "/images/projects/surface.jpg",
+  "protected": false,
+  "order": 8,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Microsoft Surface Studio \u2014 Product Renders",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The Surface Studio is a gorgeous device and it deserves extra care when texturing and lighting it in 3D. Here are a few of the test renders I designed for the Studio on Microsoft Store video walls. Rendered using Cinema 4D and Octane.",
+        "width": "full"
+      }
+    }
+  ]
+}

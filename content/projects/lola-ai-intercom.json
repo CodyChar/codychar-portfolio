@@ -1,0 +1,199 @@
+{
+  "title": "Lola",
+  "subtitle": "AI Desk Intercom",
+  "discipline": "Product Design, Systems Architecture, Software",
+  "thumbnail": "/images/explorations/ai-desk-intercom.jpg",
+  "protected": false,
+  "order": 1,
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "A retro AI intercom that treats personality as a physical object",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Role: Product design, industrial concept, systems architecture, software. Timeline: 2025\u20132026 (ongoing personal R&D). Medium: Gemini, ElevenLabs, Firebase, Raspberry Pi Zero 2 W, NFC, antique 1960s call box.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "The premise",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Voice assistants today are invisible, always listening, and indistinguishable from one another. They sit on a shelf and wait to be summoned by a wake word. The interaction is frictionless in the worst way \u2014 there\u2019s no ritual, no object, no sense that something happened.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Lola is the opposite proposition: a voice assistant housed inside an antique 1960s call box \u2014 the kind of single-button unit that used to sit on a wall and route to a larger intercom system. One white plastic talk button. One speaker behind a metal grille. No screen. No handset. Press the button, speak, and the box answers back in a voice you chose.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "It is a deliberate argument that magical technology is not about removing interface \u2014 it\u2019s about designing interface that feels inevitable for what the technology actually is.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "The design problem",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "No presence. The assistant has no body, no location, no sense of being a thing you can approach or walk away from.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "No identity. Personality is a setting buried three menus deep, not something you can hold, hand to someone else, or put on a shelf.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The goal of Lola was to design a voice product where both problems were solved by the hardware itself \u2014 not by the software pretending harder.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Design principles",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The object should earn the interaction. No wake word. You press the single white talk button on the face of the box. The ritual is the affordance. This rules out passive surveillance by design \u2014 the device literally cannot hear you unless you\u2019re touching it.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Sub-two-second latency or it isn\u2019t a conversation. Anything over ~2 seconds from button-release to voice reply registers as \u201cwaiting for a computer.\u201d Under 2 seconds registers as \u201ctalking to something.\u201d This became the north-star performance budget.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Personality is a token, not a config. Swapping who you\u2019re talking to should feel like loading a different program into a Commodore 64 \u2014 physical, tactile, visible. The current build uses NFC tags; the planned next build embeds them inside 3.5\u201d floppy disks.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The device is disposable. The soul lives in the cloud. If Lola\u2019s Pi dies, I can flash a new one in an hour and everything comes back from Firebase. The hardware is a vessel.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Key design decisions",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Hold-to-talk, not wake word. Every consumer voice assistant uses a wake word. Lola rejects it. The tradeoff was explicit: lose hands-free activation, gain an unambiguous privacy contract and a more satisfying interaction. Pressing the talk button feels like calling someone on a ship \u2014 you commit to the conversation, and when you let go, it\u2019s their turn.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The button press is also the earliest possible moment to start pre-warming the audio pipeline, DNS-resolving every upstream API, and opening Gemini/ElevenLabs sessions. By the time the user finishes speaking, everything downstream is already warm. This is how Lola hits 1.8 seconds when a typical smart speaker sits at 3\u20134.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Persona swap as physical act. Moving persona swap to an NFC tag changed the feel completely. Tap a tag, a welcome line plays in the new voice (\u201cLogan here, clocking in\u201d), and you are talking to a different entity. This is the piece that gets the strongest reaction from people who try it. It is also the piece that has the least to do with AI and the most to do with product design.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Sound design as the primary UI. Lola has no screen. The entire interface is audio: button-press click, button-release click, open/close chimes, error tones, boot announcement, persona welcome lines, the voice itself. Every one of these is a designed sound, generated from a 1964-era SFX seed so they all share sonic DNA.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Aggressive latency engineering. Sentence-level TTS pipelining, connection pre-warming on button press, DNS pre-resolved at boot, Firebase auth token caching, and an interaction abort system. None of this is visible in the product. Invisible engineering is what lets the visible design stay simple.",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "What it demonstrates",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The next interesting wave of AI products will not be better chat boxes. They will be objects. The technology is now cheap enough, fast enough, and good enough that the interesting work is no longer \u201cwhat can the model do\u201d \u2014 it\u2019s \u201cwhat should this thing be, physically, in the world.\u201d",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Lola is my argument for that thesis in built form. Every decision \u2014 the antique housing, the hold-to-talk button, the physical persona tokens, the sub-2-second latency target, the cloud-backed soul in a disposable body \u2014 is in service of making an LLM feel like a thing you have a relationship with, rather than a service you submit requests to.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Current state",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The system is running in my home. It handles calendar, email, SMS, Google Drive document lookup, Firestore notes, and cross-device messaging to Apple Notes. It has two personas shipped (Lola and Logan), each with their own voice, speech style, and conversational history. Persona swap works today via standalone NFC tags. End-to-end latency sits around 1.8 seconds on a good WiFi connection.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "Next on the bench: the floppy-disk cartridge build (NFC tags embedded inside real 3.5\u201d floppies, read by a PN532 mounted inside a repurposed floppy drive), NeoPixel state animations (idle, listening, thinking, speaking), and a move to websocket-based TTS streaming to push latency below 1.5 seconds.",
+        "width": "full"
+      }
+    }
+  ]
+}
