@@ -1,9 +1,78 @@
 {
   "title": "Meta",
-  "subtitle": "AR Glasses",
+  "subtitle": "Orion AR Glasses",
   "discipline": "Experiences Product Design",
-  "thumbnail": "/images/projects/meta-orion-press.avif",
+  "thumbnail": "/images/projects/meta-orion-glasses.jpg",
   "protected": true,
   "order": 2,
-  "blocks": []
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Meta Orion Glasses — Product Design",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "I joined Meta in 2018 as the first UX design hire for the Orion AR glasses. While at Meta, I defined early north star product visions, created proof of concept prototypes and explored Augmented Messaging, Augmented Calling, and shell UI visual language. This page is a small collection of artifacts from my time at Meta.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "A 3D library experience I designed, where 2D image cards turn into 3D assets when they reach the center of the carousel. The result is an extremely scalable system that never has the need for more than 5 models to be loaded at the same time.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "The savings we gained on system resources from the \"portal plate\" carousel meant we could spend additional compute for procedural effects on 3D models.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "A visual mockup I created in After Effects, showing a progressive disclosure flow for AR content activation. This provided a first stab and then I iterated several times at higher fidelity via Unity prototypes.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "AR Content Activation Zones",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "If you approach a physical landmark that has digital content associated with it, how should users be shown that something is there? How much of that content should they preview when glancing at it? When and how would it open fully? The following is a set of explorations around design systems that could answer these kinds of questions, optimizing for user comfort and minimizing overwhelm.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "credits",
+      "value": {
+        "items": [
+          { "role": "Design Lead", "name": "Cody Char" },
+          { "role": "PM", "name": "Henry Silverman" },
+          { "role": "User Researcher", "name": "Michelle Johnson" },
+          { "role": "Prototyper", "name": "Cody Char" }
+        ],
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "text",
+      "value": {
+        "content": "I defined multiple proximity breakpoints for a content's UI and had our engineers code these distance parameters into our prototypes. This meant we could adjust these values on the fly, in headset.",
+        "width": "full"
+      }
+    }
+  ]
 }
