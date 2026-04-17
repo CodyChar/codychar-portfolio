@@ -16,45 +16,67 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "Minecon is an annual convention where Minecraft fans get to celebrate all things blocky. Since each Microsoft Store serves as a host for the event, we needed a general awareness campaign that could help get the word out.",
+        "content": "Minecon is Minecraft's annual fan convention, and every Microsoft Store worldwide serves as a satellite host for the event. The challenge was to design a cohesive awareness campaign that could scale across the entire retail network while celebrating the playful spirit of the Minecraft brand.",
         "width": "full"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/hero.png",
-        "alt": "Minecon video wall showcase",
+        "src": "/images/projects/minecraft-casestudy/01-hero-wide.png",
+        "alt": "Minecon video wall campaign hero",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/02-store-overview.png",
+        "alt": "Microsoft Store video wall overview",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Goals",
         "width": "full"
       }
     },
     {
       "discriminant": "text",
       "value": {
-        "content": "Communicate the when/where of Minecon in a playful and Minecrafty way. Design general awareness assets for all video wall fixtures, in all Microsoft Stores.",
+        "content": "Communicate the event details in a way that felt native to the Minecraft universe. Design a complete set of awareness assets for every video wall fixture across all Microsoft Store locations.",
         "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Challenges",
+        "width": "full"
       }
     },
     {
       "discriminant": "text",
       "value": {
-        "content": "Microsoft Stores are kind of like snow flakes - no two are exactly alike. But one quality they all have in common is a badass video wall system. With over sixty different store layouts, these video walls range from 1,920 pixels to 57,600 pixels (yup). To account for such large variation, I designed a set of modular assets, allowing me to tailor every deliverable around each unique store layout.",
+        "content": "No two Microsoft Stores share the same layout. Their video wall systems range from 1,920 pixels to 57,600 pixels wide across more than sixty unique configurations. To accommodate this variation, I designed a modular asset system that allowed each deliverable to be tailored to a specific store's dimensions without rebuilding from scratch.",
         "width": "1/2"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/modular-assets.png",
-        "alt": "Modular asset system for different store layouts",
+        "src": "/images/projects/minecraft-casestudy/03-animation.gif",
+        "alt": "Animated Minecon video wall content",
         "width": "full"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/store-layout.png",
-        "alt": "Store layout with video wall configurations",
+        "src": "/images/projects/minecraft-casestudy/04-characters.png",
+        "alt": "Minecraft character renders for the campaign",
         "width": "full"
       }
     },
@@ -68,47 +90,111 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "Minecraft is all about whimsey and adventure, so why not incorporate a little of that into this Minecon theme? To bring the video walls to life, we used characters from the game including the spider, ghast, sheep and chicken. Here are some of the concept drawings and renders created along my Minecon journey.",
+        "content": "Minecraft thrives on whimsy and adventure, and the campaign needed to embody that energy. I brought the video walls to life using characters from the game — the spider, ghast, sheep, and chicken — each animated with personality-driven motion that rewarded attention. Below are concept drawings, 3D renders, and motion tests from the development process.",
         "width": "full"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/concept-art.png",
-        "alt": "Concept drawings and character renders",
-        "width": "full"
-      }
-    },
-    {
-      "discriminant": "image",
-      "value": {
-        "src": "/images/projects/minecraft-casestudy/process.png",
-        "alt": "Design process and iterations",
+        "src": "/images/projects/minecraft-casestudy/06-chicken.png",
+        "alt": "Chicken character animation concept",
         "width": "full"
       }
     },
     {
       "discriminant": "text",
       "value": {
-        "content": "We originally had the chicken get squished by a TNT block but eventually saved it from being smooshed...",
+        "content": "An early version had the chicken crushed by a TNT block. We ultimately decided to spare it.",
         "width": "full"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/chicken.png",
-        "alt": "The chicken TNT animation",
+        "src": "/images/projects/minecraft-casestudy/08-storyboard.png",
+        "alt": "Storyboard and concept explorations",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/09-modular-system.png",
+        "alt": "Modular asset system for varying store layouts",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/10-spider-anim.gif",
+        "alt": "Spider character animation",
         "width": "1/2"
       }
     },
     {
       "discriminant": "image",
       "value": {
-        "src": "/images/projects/minecraft-casestudy/videowall.png",
-        "alt": "Final video wall display",
+        "src": "/images/projects/minecraft-casestudy/11-ghast-anim.gif",
+        "alt": "Ghast character animation",
         "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/12-render-wide.png",
+        "alt": "Wide-format video wall render",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/13-final-wide.png",
+        "alt": "Final wide-format deliverable",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/14-concept-art.png",
+        "alt": "Concept art and character development",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/15-wall-anim-1.gif",
+        "alt": "Video wall animation sequence 1",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/16-wall-anim-2.gif",
+        "alt": "Video wall animation sequence 2",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/17-wall-anim-3.gif",
+        "alt": "Video wall animation sequence 3",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/18-final-render.png",
+        "alt": "Final campaign render",
+        "width": "full"
       }
     },
     {
@@ -122,7 +208,7 @@
           { "role": "Design & Animation", "name": "Cody Char" },
           { "role": "Copy Writer", "name": "Kelsi Auld" },
           { "role": "Sound Design", "name": "Jonathan Warman" },
-          { "role": "MoJang Liaison", "name": "Jeff Rivait" },
+          { "role": "Mojang Liaison", "name": "Jeff Rivait" },
           { "role": "Minecon Announcement Video", "name": "Brikk (Stockholm, Sweden)" }
         ],
         "width": "full"

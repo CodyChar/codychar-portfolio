@@ -1,5 +1,8 @@
-import { type ContentBlock } from "@/data/projects";
+"use client";
+
+import { type ContentBlock } from "@/lib/content";
 import InteractiveEmbed from "./InteractiveEmbed";
+import { useLightbox } from "./Lightbox";
 
 const widthClasses: Record<ContentBlock["width"], string> = {
   full: "col-span-full",
@@ -10,6 +13,7 @@ const widthClasses: Record<ContentBlock["width"], string> = {
 
 export default function Block({ block }: { block: ContentBlock }) {
   const widthClass = widthClasses[block.width];
+  const { open } = useLightbox();
 
   switch (block.type) {
     case "heading":
@@ -33,7 +37,10 @@ export default function Block({ block }: { block: ContentBlock }) {
     case "image":
       return (
         <div className={widthClass}>
-          <div className="relative aspect-video overflow-hidden rounded-lg bg-border/30">
+          <div
+            className="relative aspect-video overflow-hidden rounded-lg bg-border/30 cursor-zoom-in"
+            onClick={() => block.src && open(block.src, block.alt)}
+          >
             {block.src && (
               <img
                 src={block.src}
