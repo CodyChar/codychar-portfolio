@@ -9,7 +9,7 @@
     {
       "discriminant": "heading",
       "value": {
-        "content": "Minecraft \u2014 Experiential Design & 3D Animation",
+        "content": "Minecraft — Experiential Design & 3D Animation",
         "width": "full"
       }
     },
@@ -17,6 +17,14 @@
       "discriminant": "text",
       "value": {
         "content": "Minecon is an annual convention where Minecraft fans get to celebrate all things blocky. Since each Microsoft Store serves as a host for the event, we needed a general awareness campaign that could help get the word out.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/hero.png",
+        "alt": "Minecon video wall showcase",
         "width": "full"
       }
     },
@@ -35,9 +43,48 @@
       }
     },
     {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/modular-assets.png",
+        "alt": "Modular asset system for different store layouts",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/store-layout.png",
+        "alt": "Store layout with video wall configurations",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "content": "Process",
+        "width": "full"
+      }
+    },
+    {
       "discriminant": "text",
       "value": {
-        "content": "Minecraft is all about whimsey and adventure, so why not incorporate a little of that into this Minecon theme? To bring the video walls to life, we used characters from the game including the spider, ghast, sheep and chicken.",
+        "content": "Minecraft is all about whimsey and adventure, so why not incorporate a little of that into this Minecon theme? To bring the video walls to life, we used characters from the game including the spider, ghast, sheep and chicken. Here are some of the concept drawings and renders created along my Minecon journey.",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/concept-art.png",
+        "alt": "Concept drawings and character renders",
+        "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/process.png",
+        "alt": "Design process and iterations",
         "width": "full"
       }
     },
@@ -46,6 +93,22 @@
       "value": {
         "content": "We originally had the chicken get squished by a TNT block but eventually saved it from being smooshed...",
         "width": "full"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/chicken.png",
+        "alt": "The chicken TNT animation",
+        "width": "1/2"
+      }
+    },
+    {
+      "discriminant": "image",
+      "value": {
+        "src": "/images/projects/minecraft-casestudy/videowall.png",
+        "alt": "Final video wall display",
+        "width": "1/2"
       }
     },
     {
