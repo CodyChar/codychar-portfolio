@@ -3,5 +3,9 @@
   "date": "July 2019",
   "description": "",
   "thumbnail": "/images/explorations/ar-keynote.gif",
-  "order": 5
+  "order": 5,
+  "tags": [
+    "AR",
+    "Public Speaking"
+  ]
 }

@@ -201,18 +201,54 @@
       "discriminant": "credits",
       "value": {
         "items": [
-          { "role": "Creative Director", "name": "Florin Gale" },
-          { "role": "Senior Art Director", "name": "Jay Prochaska" },
-          { "role": "Project Manager", "name": "Rhiannon Thumma" },
-          { "role": "Concept & Storyboarding", "name": "Cody Char" },
-          { "role": "Design & Animation", "name": "Cody Char" },
-          { "role": "Copy Writer", "name": "Kelsi Auld" },
-          { "role": "Sound Design", "name": "Jonathan Warman" },
-          { "role": "Mojang Liaison", "name": "Jeff Rivait" },
-          { "role": "Minecon Announcement Video", "name": "Brikk (Stockholm, Sweden)" }
+          {
+            "role": "Creative Director",
+            "name": "Florin Gale"
+          },
+          {
+            "role": "Senior Art Director",
+            "name": "Jay Prochaska"
+          },
+          {
+            "role": "Project Manager",
+            "name": "Rhiannon Thumma"
+          },
+          {
+            "role": "Concept & Storyboarding",
+            "name": "Cody Char"
+          },
+          {
+            "role": "Design & Animation",
+            "name": "Cody Char"
+          },
+          {
+            "role": "Copy Writer",
+            "name": "Kelsi Auld"
+          },
+          {
+            "role": "Sound Design",
+            "name": "Jonathan Warman"
+          },
+          {
+            "role": "Mojang Liaison",
+            "name": "Jeff Rivait"
+          },
+          {
+            "role": "Minecon Announcement Video",
+            "name": "Brikk (Stockholm, Sweden)"
+          }
         ],
         "width": "full"
       }
     }
+  ],
+  "client": "Microsoft",
+  "role": "Concept & Design & Animation",
+  "year": "2017",
+  "tags": [
+    "3D Animation",
+    "Experiential Retail",
+    "Cinema 4D",
+    "Video Walls"
   ]
 }

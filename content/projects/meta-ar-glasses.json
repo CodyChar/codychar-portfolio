@@ -59,10 +59,22 @@
       "discriminant": "credits",
       "value": {
         "items": [
-          { "role": "Design Lead", "name": "Cody Char" },
-          { "role": "PM", "name": "Henry Silverman" },
-          { "role": "User Researcher", "name": "Michelle Johnson" },
-          { "role": "Prototyper", "name": "Cody Char" }
+          {
+            "role": "Design Lead",
+            "name": "Cody Char"
+          },
+          {
+            "role": "PM",
+            "name": "Henry Silverman"
+          },
+          {
+            "role": "User Researcher",
+            "name": "Michelle Johnson"
+          },
+          {
+            "role": "Prototyper",
+            "name": "Cody Char"
+          }
         ],
         "width": "full"
       }
@@ -74,5 +86,14 @@
         "width": "full"
       }
     }
+  ],
+  "client": "Meta",
+  "role": "Product Designer",
+  "year": "2018–2023",
+  "tags": [
+    "AR",
+    "Spatial UX",
+    "Prototyping",
+    "Unity"
   ]
 }

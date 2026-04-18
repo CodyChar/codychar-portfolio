@@ -9,7 +9,7 @@
     {
       "discriminant": "heading",
       "value": {
-        "content": "Renault Sport \u2014 Formula One Racing",
+        "content": "Renault Sport — Formula One Racing",
         "width": "full"
       }
     },
@@ -20,5 +20,13 @@
         "width": "full"
       }
     }
+  ],
+  "client": "Microsoft / Renault",
+  "role": "3D Designer",
+  "year": "2017",
+  "tags": [
+    "Experiential Retail",
+    "Video Walls",
+    "Formula One"
   ]
 }

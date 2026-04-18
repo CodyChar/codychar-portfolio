@@ -3,5 +3,9 @@
   "date": "",
   "description": "Exploration",
   "thumbnail": "/images/explorations/vr-sculpt.jpg",
-  "order": 7
+  "order": 7,
+  "tags": [
+    "VR",
+    "3D Sculpting"
+  ]
 }

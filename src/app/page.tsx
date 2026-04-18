@@ -24,6 +24,10 @@ export default function Home() {
             discipline={project.discipline}
             thumbnail={project.thumbnail}
             isProtected={project.protected}
+            client={project.client}
+            role={project.role}
+            tags={project.tags}
+            year={project.year}
           />
         ))}
       </section>

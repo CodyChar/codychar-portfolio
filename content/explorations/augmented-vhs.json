@@ -3,5 +3,9 @@
   "date": "May 2023",
   "description": "",
   "thumbnail": "/images/explorations/augmented-vhs.png",
-  "order": 4
+  "order": 4,
+  "tags": [
+    "AR",
+    "Nostalgia"
+  ]
 }

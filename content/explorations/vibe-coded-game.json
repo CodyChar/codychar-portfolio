@@ -3,5 +3,9 @@
   "date": "December 2025",
   "description": "",
   "thumbnail": "/images/explorations/vibe-coded-game.png",
-  "order": 1
+  "order": 1,
+  "tags": [
+    "Game Design",
+    "AI"
+  ]
 }

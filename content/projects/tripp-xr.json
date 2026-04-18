@@ -73,10 +73,23 @@
       "discriminant": "credits",
       "value": {
         "items": [
-          { "role": "Head of Product Design", "name": "Cody Char" }
+          {
+            "role": "Head of Product Design",
+            "name": "Cody Char"
+          }
         ],
         "width": "full"
       }
     }
+  ],
+  "client": "TRIPP",
+  "role": "Principal Product Designer",
+  "year": "2023–2026",
+  "tags": [
+    "AI",
+    "VR",
+    "Mobile",
+    "Conversational AI",
+    "Wellness"
   ]
 }

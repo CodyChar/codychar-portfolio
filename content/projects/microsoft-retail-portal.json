@@ -9,7 +9,7 @@
     {
       "discriminant": "heading",
       "value": {
-        "content": "Microsoft Retail Portal \u2014 UX/UI Design Prototype",
+        "content": "Microsoft Retail Portal — UX/UI Design Prototype",
         "width": "full"
       }
     },
@@ -24,12 +24,30 @@
       "discriminant": "credits",
       "value": {
         "items": [
-          { "role": "Design Director", "name": "Benson Chan" },
-          { "role": "Creative Director", "name": "Liliana Aguila" },
-          { "role": "Design Lead & Prototyper", "name": "Cody Char" }
+          {
+            "role": "Design Director",
+            "name": "Benson Chan"
+          },
+          {
+            "role": "Creative Director",
+            "name": "Liliana Aguila"
+          },
+          {
+            "role": "Design Lead & Prototyper",
+            "name": "Cody Char"
+          }
         ],
         "width": "full"
       }
     }
+  ],
+  "client": "Microsoft",
+  "role": "Design Lead & Prototyper",
+  "year": "2018",
+  "tags": [
+    "UX/UI",
+    "E-Commerce",
+    "Fluent Design",
+    "After Effects"
   ]
 }

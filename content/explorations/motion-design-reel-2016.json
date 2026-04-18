@@ -3,5 +3,9 @@
   "date": "",
   "description": "",
   "thumbnail": "/images/explorations/motion-reel.jpg",
-  "order": 9
+  "order": 9,
+  "tags": [
+    "Motion Design",
+    "After Effects"
+  ]
 }

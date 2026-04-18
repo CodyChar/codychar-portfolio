@@ -30,14 +30,14 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "Head-coupled perspective (sometimes called \u201cfishtank VR\u201d) is one of the oldest tricks in spatial computing: track the viewer\u2019s head with a camera, then render the 3D scene from their exact viewpoint using off-axis projection. The screen becomes a window into a miniature world. No headset. No glasses. Just a laptop and a webcam.",
+        "content": "Head-coupled perspective (sometimes called “fishtank VR”) is one of the oldest tricks in spatial computing: track the viewer’s head with a camera, then render the 3D scene from their exact viewpoint using off-axis projection. The screen becomes a window into a miniature world. No headset. No glasses. Just a laptop and a webcam.",
         "width": "full"
       }
     },
     {
       "discriminant": "text",
       "value": {
-        "content": "The technique has been demonstrated in research labs for decades, but it almost never ships as a product because the calibration UX is brutal and the rendering needs to be flawless \u2014 any latency or jitter breaks the illusion instantly. This project was an attempt to solve both problems well enough that someone could just open a URL and feel it.",
+        "content": "The technique has been demonstrated in research labs for decades, but it almost never ships as a product because the calibration UX is brutal and the rendering needs to be flawless — any latency or jitter breaks the illusion instantly. This project was an attempt to solve both problems well enough that someone could just open a URL and feel it.",
         "width": "full"
       }
     },
@@ -58,14 +58,14 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "MediaPipe\u2019s Face Landmarker runs in the browser and returns a full facial transformation matrix every frame. From that matrix I extract the viewer\u2019s eye position in 3D space, then compute an off-axis perspective projection (Kooima 2009) that matches what you\u2019d see if you were actually looking through a physical window at a tiny diorama sitting behind your screen.",
+        "content": "MediaPipe’s Face Landmarker runs in the browser and returns a full facial transformation matrix every frame. From that matrix I extract the viewer’s eye position in 3D space, then compute an off-axis perspective projection (Kooima 2009) that matches what you’d see if you were actually looking through a physical window at a tiny diorama sitting behind your screen.",
         "width": "1/2"
       }
     },
     {
       "discriminant": "text",
       "value": {
-        "content": "A 4-corner finger calibration flow maps your physical screen to the virtual scene. You align your fingertip, eye, and each screen corner at arm\u2019s length \u2014 four taps and the system knows the exact geometry of your setup. After that, head tracking takes over and the perspective shifts in real time as you move.",
+        "content": "A 4-corner finger calibration flow maps your physical screen to the virtual scene. You align your fingertip, eye, and each screen corner at arm’s length — four taps and the system knows the exact geometry of your setup. After that, head tracking takes over and the perspective shifts in real time as you move.",
         "width": "1/2"
       }
     },
@@ -86,7 +86,7 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "The cinematic treatment is deliberate. Head-coupled perspective demos usually look like tech demos \u2014 flat lighting, debug geometry. The hypothesis was that if the scene is beautiful enough on its own, the spatial effect becomes \u201cwait, what?\u201d instead of \u201coh, a head-tracking demo.\u201d The rendering quality earns the viewer\u2019s attention before the spatial trick reveals itself.",
+        "content": "The cinematic treatment is deliberate. Head-coupled perspective demos usually look like tech demos — flat lighting, debug geometry. The hypothesis was that if the scene is beautiful enough on its own, the spatial effect becomes “wait, what?” instead of “oh, a head-tracking demo.” The rendering quality earns the viewer’s attention before the spatial trick reveals itself.",
         "width": "1/2"
       }
     },
@@ -107,7 +107,7 @@
     {
       "discriminant": "text",
       "value": {
-        "content": "Spatial computing is converging on headsets as the delivery mechanism. But billions of people already own a device with a screen and a camera pointed at their face. Head-coupled perspective turns that device into a spatial display with zero additional hardware. The gap between \u201claptop with a webcam\u201d and \u201cspatial experience\u201d is not a headset \u2014 it\u2019s software that understands where your eyes are.",
+        "content": "Spatial computing is converging on headsets as the delivery mechanism. But billions of people already own a device with a screen and a camera pointed at their face. Head-coupled perspective turns that device into a spatial display with zero additional hardware. The gap between “laptop with a webcam” and “spatial experience” is not a headset — it’s software that understands where your eyes are.",
         "width": "full"
       }
     },
@@ -118,5 +118,15 @@
         "width": "full"
       }
     }
+  ],
+  "client": "Personal",
+  "role": "Creative Technologist",
+  "year": "2026",
+  "tags": [
+    "Three.js",
+    "Babylon.js",
+    "MediaPipe",
+    "WebXR",
+    "Head Tracking"
   ]
 }

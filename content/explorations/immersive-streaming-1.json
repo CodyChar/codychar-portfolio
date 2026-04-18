@@ -3,5 +3,9 @@
   "date": "",
   "description": "",
   "thumbnail": "/images/explorations/immersive-streaming-1.png",
-  "order": 3
+  "order": 3,
+  "tags": [
+    "VR",
+    "Streaming"
+  ]
 }

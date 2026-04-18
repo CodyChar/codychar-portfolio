@@ -3,5 +3,9 @@
   "date": "January 2026",
   "description": "",
   "thumbnail": "/images/explorations/immersive-streaming-2.jpg",
-  "order": 2
+  "order": 2,
+  "tags": [
+    "VR",
+    "Streaming"
+  ]
 }

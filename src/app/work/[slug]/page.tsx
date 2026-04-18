@@ -118,6 +118,29 @@ export default function ProjectPage() {
           )}
         </h1>
 
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted">
+          {project.client && (
+            <span>Client: <span className="text-foreground">{project.client}</span></span>
+          )}
+          {project.role && (
+            <span>Role: <span className="text-foreground">{project.role}</span></span>
+          )}
+          {project.year && <span>{project.year}</span>}
+        </div>
+
+        {project.tags && project.tags.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {project.tags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
           {sortedBlocks.map((block) => (
             <Block key={block.id} block={block} />

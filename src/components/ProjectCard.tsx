@@ -8,6 +8,10 @@ interface ProjectCardProps {
   discipline: string;
   thumbnail: string;
   isProtected?: boolean;
+  client?: string;
+  role?: string;
+  tags?: string[];
+  year?: string;
 }
 
 export default function ProjectCard({
@@ -17,6 +21,10 @@ export default function ProjectCard({
   discipline,
   thumbnail,
   isProtected,
+  client,
+  role,
+  tags,
+  year,
 }: ProjectCardProps) {
   return (
     <Link
@@ -38,7 +46,7 @@ export default function ProjectCard({
           </div>
         )}
       </div>
-      <div className="mt-3 space-y-0.5">
+      <div className="mt-3 space-y-1.5">
         <h3 className="font-medium">
           {title}
           {subtitle && (
@@ -46,6 +54,23 @@ export default function ProjectCard({
           )}
         </h3>
         <p className="text-sm text-muted">{discipline}</p>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+          {client && <span>Client: {client}</span>}
+          {role && <span>Role: {role}</span>}
+          {year && <span>{year}</span>}
+        </div>
+        {tags && tags.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {tags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-border px-2 py-0.5 text-xs text-muted"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </Link>
   );

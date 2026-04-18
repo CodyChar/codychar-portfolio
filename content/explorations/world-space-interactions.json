@@ -3,5 +3,9 @@
   "date": "",
   "description": "Exploration",
   "thumbnail": "/images/explorations/world-space.png",
-  "order": 6
+  "order": 6,
+  "tags": [
+    "XR",
+    "Spatial UX"
+  ]
 }

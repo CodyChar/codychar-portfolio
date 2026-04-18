@@ -34,13 +34,25 @@ export default function ExplorationsPage() {
                 />
               )}
             </div>
-            <div className="mt-3 space-y-0.5">
+            <div className="mt-3 space-y-1.5">
               <h3 className="font-medium">{item.title}</h3>
               {item.date && (
                 <p className="text-sm text-muted">{item.date}</p>
               )}
               {item.description && (
                 <p className="text-sm text-muted">{item.description}</p>
+              )}
+              {item.tags && item.tags.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 pt-0.5">
+                  {item.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full border border-border px-2 py-0.5 text-xs text-muted"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               )}
             </div>
           </div>

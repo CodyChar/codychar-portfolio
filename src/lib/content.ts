@@ -28,6 +28,10 @@ export interface Project {
   discipline: string;
   thumbnail: string;
   protected?: boolean;
+  client?: string;
+  role?: string;
+  tags?: string[];
+  year?: string;
   order: number;
   blocks: ContentBlock[];
 }
@@ -38,6 +42,7 @@ export interface Exploration {
   date?: string;
   description?: string;
   thumbnail: string;
+  tags?: string[];
   order: number;
 }
 
@@ -79,6 +84,10 @@ export function getProjects(): Project[] {
       discipline: raw.discipline || "",
       thumbnail: raw.thumbnail || "",
       protected: raw.protected || false,
+      client: raw.client || undefined,
+      role: raw.role || undefined,
+      tags: raw.tags || undefined,
+      year: raw.year || undefined,
       order: raw.order ?? 99,
       blocks,
     });
@@ -103,6 +112,10 @@ export function getProject(slug: string): Project | undefined {
     discipline: raw.discipline || "",
     thumbnail: raw.thumbnail || "",
     protected: raw.protected || false,
+    client: raw.client || undefined,
+    role: raw.role || undefined,
+    tags: raw.tags || undefined,
+    year: raw.year || undefined,
     order: raw.order ?? 99,
     blocks,
   };
@@ -124,6 +137,7 @@ export function getExplorations(): Exploration[] {
       date: raw.date || undefined,
       description: raw.description || undefined,
       thumbnail: raw.thumbnail || "",
+      tags: raw.tags || undefined,
       order: raw.order ?? 99,
     });
   }

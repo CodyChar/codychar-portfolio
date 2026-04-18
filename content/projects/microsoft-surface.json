@@ -9,7 +9,7 @@
     {
       "discriminant": "heading",
       "value": {
-        "content": "Microsoft Surface Studio \u2014 Product Renders",
+        "content": "Microsoft Surface Studio — Product Renders",
         "width": "full"
       }
     },
@@ -20,5 +20,14 @@
         "width": "full"
       }
     }
+  ],
+  "client": "Microsoft",
+  "role": "3D Artist",
+  "year": "2017",
+  "tags": [
+    "Product Rendering",
+    "Cinema 4D",
+    "Octane",
+    "Retail"
   ]
 }

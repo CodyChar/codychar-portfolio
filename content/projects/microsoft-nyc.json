@@ -9,7 +9,7 @@
     {
       "discriminant": "heading",
       "value": {
-        "content": "Art Transition Theme \u2014 Microsoft Store New York Flagship",
+        "content": "Art Transition Theme — Microsoft Store New York Flagship",
         "width": "full"
       }
     },
@@ -41,5 +41,14 @@
         "width": "full"
       }
     }
+  ],
+  "client": "Microsoft",
+  "role": "3D Motion Designer",
+  "year": "2017",
+  "tags": [
+    "LED",
+    "Projection Mapping",
+    "Procedural Animation",
+    "Alpha Compositing"
   ]
 }

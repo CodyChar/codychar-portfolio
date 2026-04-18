@@ -38,14 +38,14 @@ export default function Block({ block }: { block: ContentBlock }) {
       return (
         <div className={widthClass}>
           <div
-            className="relative aspect-video overflow-hidden rounded-lg bg-border/30 cursor-zoom-in"
+            className="overflow-hidden rounded-lg bg-border/30 cursor-zoom-in"
             onClick={() => block.src && open(block.src, block.alt)}
           >
             {block.src && (
               <img
                 src={block.src}
                 alt={block.alt || ""}
-                className="h-full w-full object-cover"
+                className="w-full h-auto block"
               />
             )}
           </div>
